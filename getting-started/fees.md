@@ -4,25 +4,30 @@ Fodl fees are designed to be simple to understand, transparently calculated on-c
 
 ### Reward Token Fees
 
-* Fodl takes 10% of governance token rewards from the underlying position.&#x20;
-  * Ie. when a user opens a folded position on Compound, they will receive a certain APR in $COMP.&#x20;
-* The Fodl protocol will take 10% of those $COMP tokens as the margin funding rate.&#x20;
+* FODL takes 10% of governance token rewards from the underlying position.&#x20;
+  * i.e. when a user opens a folded position on Compound, they will receive a certain APR in $COMP.&#x20;
+* The FODL protocol will take 10% of those $COMP tokens as the margin funding rate.&#x20;
 
 ### Profit Share Fees
 
-* Fodl takes 2.5% profit share of appreciating long or short positions.&#x20;
-* 2.5% is only applied to profit, not principle.
-  * I.e. if the position does not close in profit, Fodl does not take any % of the position.&#x20;
+* FODL takes 2.5% profit share of appreciating long or short positions.&#x20;
+* 2.5% is only applied to profit, not principal.
+  * i.e. if the position does not close in profit, FODL does not take any additional fee&#x20;
 
-### Purpose of fees
+### Trading Fees
+
+* FODL takes a small principal fee of 0.1%. This fee is taken from the unleveraged principal and the amount does therefore not change with the chosen leverage.
+* FODL relies on Uniswap V3 and trading fees occur depending on the pool the trades are routed through with flash swaps.&#x20;
+
+### Purpose of Fees
 
 * Reward token fees provide a leverage trading experience with fully decentralized liquidity, where users’ positions pay their own funding rates.&#x20;
-* Profit share fees enable low platform fees which do not dig into the principle of users who do not profit.&#x20;
-  * Unlike fees for opening and closing positions on other platforms, which dig into principle, Fodl shares 2.5% of profitable position gains while unprofitable users to go untaxed.
-  * The goal is to provide a low risk, forgiving fee structure where the protocol only takes fees from profits derived from using the protocol.&#x20;
+* The goal is to provide a low risk, forgiving fee structure where the protocol mostly takes fees from profits derived from using the protocol.&#x20;
 
-### How are Fodl fees used?
+### How are FODL fees used?
 
-* 10% of gov tokens earned are used to purchase FODL from liquidity providers in FODL-ETH LP
-* 2.5% of profits from long / short positions also are used to purchase FODL from FODL-ETH LP
-* Platform fees are 100% driven to long term supporters of the platform--those who hold their FODL token rewards. \
+All revenue that the platform generates is controlled by the DAO. The DAO is able to decide how to use the revenue. A few examples of possibilities:
+
+* FODL buybacks on the Sushi LP to refill rewards contracts or fuel future development grants
+* Direct token profit share (Either the native tokens that are in the pool or conversion to stable coin)
+

@@ -1,6 +1,6 @@
 # Tokenomics
 
-The Fodl token serves as both a governance token for the fully decentralized protocol DAO, as well as a vehicle for fully decentralized revenue distribution. Token supply will never be changed, and supply distribution is as follows:\
+The FODL token serves as both a governance token for the fully decentralized protocol DAO, as well as a vehicle for fully decentralized revenue distribution. Token supply will never be changed, and supply distribution is as follows:\
 
 
 | Ticker:                          | $FODL                    |
@@ -11,6 +11,13 @@ The Fodl token serves as both a governance token for the fully decentralized pro
 | Initial FDV                      | $25,000,000              |
 | Platform position rewards        | 400,000,000              |
 | Treasury                         | Funded via Fodl buybacks |
-| $FODL LP staking rewards         | 200,000,000              |
+| FODL LP staking rewards          | 150,000,000              |
+| xFODL staking rewards            | 50,000,000               |
 | Decentralized development grants | 100,000,000              |
 | Team funding                     | 100,000,000              |
+
+### Vesting Periods
+
+* The initial LP and LP Staking rewards are locked for 6 months in the LP after Project inception.
+* Team Fund is vesting over 18 Months linearly with a 6 months cliff.&#x20;
+

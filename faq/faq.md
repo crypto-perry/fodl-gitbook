@@ -14,7 +14,7 @@ On the Fodl app select a supply asset and supply amount, a borrow asset and leve
 
 How does Fodl create leveraged positions out of collateral lending platforms?
 
-When a user opens the position, Fodl takes out a flash loan capable of opening the folded leveraged position in a single transaction, effectively allowing the user to leverage their principle beyond the limits of the underlying platform
+When a user opens the position, Fodl takes out a flash loan capable of opening the folded leveraged position in a single transaction, effectively allowing the user to leverage their principal beyond the limits of the underlying platform
 
 What is a folded leverage position?
 

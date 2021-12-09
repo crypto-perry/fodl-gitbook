@@ -53,8 +53,8 @@ Example in action: Close position with ETH at $3k\*\*
 * Sell 133.33 ETH for 400,000 USDC&#x20;
 * Repay 400,000 USDC
 * User Receives 174.724 ETH&#x20;
-  * (100 ETH Principle + 76.64 ETH Profit - 1.916 ETH profit share fee)
-    * Profit share fee = 2.5% of Profit only -- fees never taken on principle
+  * (100 ETH principal + 76.64 ETH Profit - 1.916 ETH profit share fee)
+    * Profit share fee = 2.5% of Profit only -- fees never taken on principal
 
 {% hint style="info" %}
 Interest & governance token APR not calculated in these examples – true profits may be higher or lower

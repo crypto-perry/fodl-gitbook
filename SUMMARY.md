@@ -2,16 +2,16 @@
 
 * [What is Fodl?](README.md)
 
-## Understanding Fodl <a href="getting-started" id="getting-started"></a>
+## Understanding Fodl <a href="#getting-started" id="getting-started"></a>
 
-* [Fodl trade lifecycle](getting-started/fodl-trade-lifecycle/README.md)
+* [FODL trade lifecycle](getting-started/fodl-trade-lifecycle/README.md)
   * [Long positions](getting-started/fodl-trade-lifecycle/long-positions.md)
   * [Short positions](getting-started/fodl-trade-lifecycle/short-positions.md)
   * [Correlated positions](getting-started/fodl-trade-lifecycle/correlated-positions.md)
 * [Bots](getting-started/risk-management-bots.md)
 * [Fees](getting-started/fees.md)
 * [On-chain](getting-started/on-chain.md)
-* [Staking](getting-started/staking.md)
+* [Staking/Position Rewards](getting-started/staking.md)
 * [DAO](getting-started/dao.md)
 
 ## Using FODL
