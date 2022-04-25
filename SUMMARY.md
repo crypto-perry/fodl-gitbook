@@ -1,6 +1,6 @@
 # Table of contents
 
-* [What is Fodl?](README.md)
+* [What is FODL?](README.md)
 
 ## Understanding Fodl <a href="#getting-started" id="getting-started"></a>
 
