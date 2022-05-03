@@ -4,7 +4,9 @@ description: FODL — 100% decentralized leverage trading
 
 # Medium Article
 
-![](../.gitbook/assets/1Sdma10XhULYgWNniTaaFwQ.png)
+
+
+![](<../.gitbook/assets/Fodl\_Logo\_Gradient (1).svg>)
 
 As the team behind 0x\_b1, we spent the better part of the past year strategizing the best ways to DeFi. One of the most important things we had to solve for, was hedging our positions in ETH, WBTC, and other non-stable coins. We used a combination of centralized and decentralized trading platforms to accomplish this, and along the way were dumbfounded at how rates affected our outcomes.
 
