@@ -1,8 +1,6 @@
----
-description: FODL — 100% decentralized leverage trading
----
+# Medium
 
-# Medium Article
+{% embed url="https://medium.com/@FODL" %}
 
 ## FODL 2.0 Is Officially Here! <a href="#777b" id="777b"></a>
 

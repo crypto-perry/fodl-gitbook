@@ -26,4 +26,4 @@
 
 ## Extension
 
-* [Medium Article](extension/medium-article.md)
+* [Medium](extension/medium.md)
