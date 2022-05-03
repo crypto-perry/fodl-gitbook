@@ -9,15 +9,15 @@ The FODL token serves as both a governance token for the fully decentralized pro
 | Initial DEX listing LP           | 200,000,000              |
 | Initial Price                    | $0.025                   |
 | Initial FDV                      | $25,000,000              |
-| Platform position rewards        | 400,000,000              |
+| Platform position rewards        | 350,000,000              |
 | Treasury                         | Funded via Fodl buybacks |
-| FODL LP staking rewards          | 150,000,000              |
+| FODL LP staking rewards          | \~125,000,000            |
 | xFODL staking rewards            | 50,000,000               |
-| Decentralized development grants | 100,000,000              |
-| Team funding                     | 100,000,000              |
+| Decentralized development grants | \~125,000,000            |
+| Team                             | 100,000,000              |
 
 ### Vesting Periods
 
-* The initial LP and LP Staking rewards are locked for 6 months in the LP after Project inception.
-* Team Fund is vesting over 18 Months linearly with a 6 months cliff.&#x20;
+* The initial LP and LP Staking rewards were locked for the 6 months in the LP after Project inception launch.
+* Team Fund is vesting over 21 Months linearly with a 9 month cliff.&#x20;
 

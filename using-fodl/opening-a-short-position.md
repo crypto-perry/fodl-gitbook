@@ -1,62 +1,72 @@
 # Opening short positions
 
-Short positions are defined as Fodls where the supplied asset is a stablecoin and the borrowed asset is a non-stablecoin. The positions are for users who are bearish on market conditions and seek to profit from price depreciation of assets against fiat stablecoins.&#x20;
+By going short, a trader opens a position with the expectation that the underlying borrowed (Short) asset will drop in value against the supplied (Long) asset in the future.
 
-## Opening a short position on Fodl
+For example, a 2.34x short USDC vs. ETH would yield a profit of 23.4% on a 10% price drop in the price of ETH to USDC.
 
-1. Select an asset to Supply you think will go up against the asset you choose to Borrow&#x20;
+## Opening a short position on FODL
 
-OR
+1\. Select an asset to long, which you think will go up in value compared to the asset you choose to short
 
-Select an asset to Borrow you think will go down against the asset you choose to Supply
+![](https://lh5.googleusercontent.com/Ryl4aoFY77PlCttCAMB-fq3RRXeX9H911v197a0o\_iDzn9P2CTP39ctxrvoMLYATquVf8utzbKMCaM7Xir5e22St8e4o1xZN8\_4bqsku6T-Sgbzq1Ui-K4kpq7A-fD7BogSbX762)
 
-![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.47.09.png>)
+2\. Input the amount of assets you want to supply
 
-3\. Select your desired leverage. You can use the slider or the buttons
+![](https://lh6.googleusercontent.com/1QnRETM0\_cEFFHY3f9anlYZvMSOHjbRLRRl8qx\_R\_eJoauXWttYpBbpWThelP4nzDtIzjFIG-K5Mig8rd3pRY3R1E4ka98VJYl945A2dneYkPq\_eQJXrEMXBBBnd2RXymo1yTwlB)
 
-![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.40.34.png>)
+3\. Select your desired leverage using the slider
+
+![](https://lh4.googleusercontent.com/yXwPFBFs3D0SzCeEL08KNF9yZPFyqoo-4vhsnQqFfgiXvgEdzCf1sGnGbM96m3zzcJRQxO5okLQFoGhDme85Zfz7iuucH1ZM0A1r\_3TlAi-s\_17DwqeKWoVAqVaH5T2JqRsJaZnG)
 
 {% hint style="warning" %}
-The higher your leverage the more profitable your position will be if you are right. However, the higher your leverage the higher your starting health limit (closer to liquidation/close out position), so the less room you have for the market to move opposite your bet before your position is closed. Selecting lower leverage is safer!
+The higher your leverage, the more profitable your position will be if you are right. However, with greater leverage comes greater risk, which means less room for the market to move opposite to what you hoped for when placing your bet before your position is closed & liquidated. Selecting lower leverage is safer!
 {% endhint %}
 
-4\. Input the amount of assets you want to supply, and click 'Enter Position'&#x20;
+4\. Review the position details and click ‘’Open Position’’
 
-![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.48.11.png>)
+![](https://lh5.googleusercontent.com/hF3OFONVHaQjUC\_YqrilGDOEZkqM7XDNy0pCEG5NOYkkSbrKecFa46GkF40kFAvltRrnCFiBACQQq0-zcycx-z4W-lVafR6WB8rotXonD0MRhE-Faw6spFmCOZwqA1ZostrNIniy)
 
-5\. Approve the spending of the selected asset in your Web3 wallet if you haven't already. Confirm the transaction in your Web3 wallet
+5\. Confirm the transaction in your Web3 wallet.&#x20;
 
-6\. Your position is now visible on your Fodl dashboard
+{% hint style="warning" %}
+Note: If you haven’t already, you will need to approve the spending of the selected asset in your Web3 wallet.
+{% endhint %}
 
-![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.51.14.png>)
+6\. Your position is now visible on ‘’Your Positions’’ on the FODL dashboard
 
-## Examples
+![](https://lh5.googleusercontent.com/QlKZWlwzC8z0mBnFB2fkOgClnrQQkHVKdXKyZZjWxf8igFSoHFWi-q7fm-zWwdZileoXsNyDIRk244gthjEpO9jeA0PjVNXARmDRNXJiPAVAOKpmBxUW7-iIJm-D5UTCaThi3dfb)
 
-* Supply DAI, borrow ETH. Supply USDC, borrow COMP. Supply USDC, borrow ETH.
+## Example
 
-Example in action: Supply 500,000 USDC to borrow ETH @ $2k w/ 3x Leverage
-
-* Your net starting position would be:&#x20;
-  * Supply: 1,500,000 USDC
-  * Borrow: 500 ETH ($1,000,000)
-  * Health: 66%
-
-Example in action: ETH moves to $1k
-
-* Your new current position would be:&#x20;
-  * Supply: 1,500,000 USDC&#x20;
-  * Borrow: 500 ETH ($500k)
-  * Health: \~33%
-
-Example in action: Close position with ETH at $1k\*\*
-
-* Sell 500,000 USDC for 500 ETH&#x20;
-* Repay 500 ETH
-* User Receives 987,500 USDC&#x20;
-  * (500,000 USDC principal + 500,000 USDC Profit - 12,500 USDC Profit share fee)
-    * Profit share fee = 2.5% of Profit only -- fees never taken on principal
+### **Trade: Short ETH**&#x20;
 
 {% hint style="info" %}
-Interest & governance token APR not calculated in these examples – true profits may be higher or lower&#x20;
+**Asset Pair:** supply USDC & borrow ETH
+
+**Price:** 1 USDC = 0.001 ETH or 1 ETH = 1000 USDC&#x20;
+
+**Principal:** 100,000 USDC&#x20;
+
+**Leverage:** 3x&#x20;
 {% endhint %}
 
+Your net starting position would be:&#x20;
+
+* Supply = (Leverage + 1) \* Principal = 4 x 100,000 = 400,000 USDC&#x20;
+* Borrow = Leverage \* Principal / price\_ETH\_USDC = 3 \* 100,000 / 1000 = 300 ETH&#x20;
+* Position Value = Supply - Borrow \* price\_ETH\_USDC = 400,000 - 300 \* 1000 = 100,000 USDC&#x20;
+
+{% hint style="warning" %}
+**ETH prices moves to $900**&#x20;
+
+**New Price:** 1 USDC = 0.001111 ETH or 1 ETH = 900 USDC
+
+**Price Move:**  11.11111% ETH or -10% USDC
+{% endhint %}
+
+Your position would now be:&#x20;
+
+* Supply: 400,000 USDC&#x20;
+* Borrow: 300 ETH&#x20;
+* Position Value: 400,000 - 300 \* 900 = 130,000 USDC&#x20;
+* Profit: **30,000 USDC** (30% profit = Leverage \* _price move)_

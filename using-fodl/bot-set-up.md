@@ -1,10 +1,10 @@
 # Stop loss bot set-up
 
-One of the primary benefits of Fodl are its smart contract bots, offering protection against liquidations by setting stop losses.
+One of the primary benefits of FODL is its smart contract bots that offer protection against liquidations by setting stop losses.
 
-## Setting up the Fodl stop loss bot
+## Setting up the FODL stop loss bot
 
-1. Click on the settings icon on the right hand side of your open position on the Fodl dashboard
+1. Click on the settings icon on the right hand side of your open position on the FODL dashboard
 
 ![](<../.gitbook/assets/Screenshot 2021-10-05 at 12.33.22.png>)
 

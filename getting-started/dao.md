@@ -1,7 +1,9 @@
 # DAO
 
-As the FODL supply becomes more and more distributed amongst the community to the users of the platform and liquidity providers, we’re looking toward a DAO community with full control over the platform, and access to 100% of protocol revenue via xFODL, FODL-ETH and FODL-USDC LPs (Sushi).&#x20;
+As the FODL supply becomes more and more distributed amongst the community members (users of the platform, liquidity providers, FODL stakers), we're building towards a DAO community with full control over the platform parameters, revenue streams, and control of liquidity mining incentives for the FODL-ETH, FODL-USDC, FODL-MATIC, and FODL-BNB pools.&#x20;
 
-Over time, the team behind Fodl plans to further decentralize the platform, along with its development, upkeep, and running of stop loss/take profit and liquidation bots. Using the 10% of FODL supply allocated for development grants, and combined with the DAO, the project will seek to fund a community of developers and strategists around the platform, to completely decentralize the project.&#x20;
+FODL DAO decisions are executed by team multi-sig, which is further secured by a 24-hour time lock.
 
-The DAO's primary function is the distribution of revenue and fine tuning the projects parameters including fee amounts, rewards schedules for staking and liquidity mining. \
+Over time, the team behind FODL plans to further decentralize the platform along with its development, upkeep, and running of stop loss/take profit and liquidation bots. Using the 10% of FODL supply allocated for development grants, and combined with the DAO, the project will seek to fund a community of developers and strategists around the platform in order to completely decentralize the project.&#x20;
+
+All proposals can be found [here](https://snapshot.org/#/fodl-dao.eth).
