@@ -75,9 +75,9 @@ Correlated positions can be defined as FODLs where the supply and borrow asset p
 
 There are a few fees that the platform charges:&#x20;
 
-* \-0.1% from the principal when a user exits their position.&#x20;
-* \-2.5% on profit margin (profit margin is: (revenue - cost) / revenue) taken when user exits position.&#x20;
-* \-10% of platform rewards (COMP, AAVE) whenever user claims rewards.
+* 0.1% from the principal when a user exits their position.&#x20;
+* 2.5% on profit margin (profit margin is: (revenue - cost) / revenue) taken when user exits position.&#x20;
+* 10% of platform rewards (COMP, AAVE) whenever a user claims rewards.
 
 FODL fees are generally lower than other forms and services of leverage, especially when including platform rewards.&#x20;
 
