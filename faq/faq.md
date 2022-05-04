@@ -57,19 +57,19 @@ Folded leverage is where a user deposits collateral on a lending platform, borro
 
 #### Can I set stop losses to prevent liquidation on my leverage?
 
-&#x20;FODL has built bots to support stop loss or take profit. If market conditions reach the user’s configured price, FODL bots will unwrap a portion or entirety of the user’s position per configuration. FODL is currently in beta testing mode for bots on BNB and Polygon. See below in the guides section for more information on how to use bots on FODL.
+FODL has built bots to support stop loss or take profit. If market conditions reach the user’s configured price, FODL bots will unwrap a portion or entirety of the user’s position per configuration. FODL is currently in beta testing mode for bots on BNB and Polygon. See below in the guides section for more information on how to use bots on FODL.
 
 #### How do I open a long position?&#x20;
 
-Long positions can be defined as FODLs where the supplied asset is a non-stablecoin and the borrowed asset is a stablecoin. The positions are for users who are bullish on market conditions and seek to profit from price appreciation of assets against fiat stablecoins. You can also open a long position against a non-stablecoin, for example, long ETH (Supply) against BTC (Borrow)&#x20;
+Long positions can be defined as FODLs where the supplied asset is a non-stablecoin and the borrowed asset is a stablecoin. The positions are for users who are bullish on market conditions and seek to profit from price appreciation of assets against fiat stablecoins. You can also open a long position against a non-stablecoin, for example, long ETH (Supply) against BTC (Borrow).&#x20;
 
 #### How do I open a short position?&#x20;
 
-Short positions can be defined as FODLs where the supplied asset is a stablecoin and the borrowed asset is a non-stablecoin. The positions are for users who are bearish on market conditions and seek to profit from price depreciation of assets against fiat stablecoins. Same with the long position, you can also short against a non-stablecoin, for example, Short ETH (Borrow) against BTC (Supply)&#x20;
+Short positions can be defined as FODLs where the supplied asset is a stablecoin and the borrowed asset is a non-stablecoin. The positions are for users who are bearish on market conditions and seek to profit from price depreciation of assets against fiat stablecoins. Same with the long position, you can also short against a non-stablecoin, for example, Short ETH (Borrow) against BTC (Supply).&#x20;
 
 #### How do I open a correlated position?&#x20;
 
-Correlated positions can be defined as FODLs where the supply and borrow asset prices are generally correlated or exactly the same (i.e., stablecoins). Correlated positions are a strategy focused on maximizing governance token farming of COMP AAVE with reduced risk of liquidation due to underlying asset price movements. For example, if you supply and borrow stables with a supply APY of 2% and a borrow APY of 3%, the net APY is 1%. Over time, your borrow amount will increase by this net APY but at a very slow rate. Please monitor and manage your borrow position to ensure you are&#x20;
+Correlated positions can be defined as FODLs where the supply and borrow asset prices are generally correlated or exactly the same (i.e., stablecoins). Correlated positions are a strategy focused on maximizing governance token farming of COMP AAVE with reduced risk of liquidation due to underlying asset price movements. For example, if you supply and borrow stables with a supply APY of 2% and a borrow APY of 3%, the net APY is 1%. Over time, your borrow amount will increase by this net APY but at a very slow rate.&#x20;
 
 #### What are the fees for using FODL?&#x20;
 
@@ -95,7 +95,7 @@ Yes. The rewards are computed based on how much and how long your position contr
 
 #### How is the FODL APR calculated?&#x20;
 
-The formula for calculating APR is: APR : (rewards per day + fees per day) \* days per year/total deposits
+The formula for calculating APR is: APR : (rewards per day + fees per day) \* days per year/total deposits.
 
 Detailed explanation: The rewards are distributed using Merkle roots computed off-chain as the computation is made on the total value of a position which changes every block as prices of underlying assets change. The amount of fodl given each week for fodl rewards is determined by this formula: fodlPerWeek = 3319.23184624 \* (1200 - weekNumber) \* (weekNumber + 1)^(-e/10)) and is rounded down to an integer. This amount is then distributed 20% to stable/farming positions (same asset positions or stablecoins: USDC, USDT, DAI) and 80% to longs and shorts. Within each category, the fodl is distributed directly proportional to a user's contribution towards the TVL (sum of all supply + sum of all borrows).&#x20;
 
@@ -141,7 +141,7 @@ FODL is not available in the United States nor other prohibited jurisdictions. I
 
 #### What is Rari Capital and how is it related to FODL?&#x20;
 
-Rari Capital is a lending, borrowing, and yield farming protocol for DeFi. 0xb1 has a pool on the Rari platform called “0xb1’s Kitchen Sink” that allows you to utilize and leverage your FODL and xFODL tokens for liquidity in other tokens including stablecoins and other assets&#x20;
+Rari Capital is a lending, borrowing, and yield farming protocol for DeFi. 0xb1 has a pool on the Rari platform called “0xb1’s Kitchen Sink” that allows you to utilize and leverage your FODL and xFODL tokens for liquidity in other tokens including stablecoins and other assets.&#x20;
 
 #### What is Drops Dao and how is it related to FODL?&#x20;
 
