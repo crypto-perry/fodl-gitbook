@@ -23,7 +23,7 @@ The team behind the FODL platform consists of a core team of 17 people associate
 
 #### **What is the $FODL token used for?**&#x20;
 
-$FODL is the governance token of the DAO that also functions as a utility token by providing incentives for platform users and liquidity providers. You can also stake your $FODL tokens either single-sided or dual-sided on Ethereum or on Polygon. See the guides section below for more information.&#x20;
+$FODL is the governance token of the DAO that also functions as a utility token by providing incentives for platform users and liquidity providers. You can also stake your $FODL tokens either single-sided or dual-sided on Ethereum or on Polygon.&#x20;
 
 #### **Where can I buy $FODL?**&#x20;
 
