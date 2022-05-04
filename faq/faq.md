@@ -45,7 +45,7 @@ Currently the platform is only built for desktop use. There may be plans to even
 
 #### How do I open a position?&#x20;
 
-On the FODL app select a supply asset and supply amount, a borrow asset and leverage, FODL platform calculates how much of the borrow asset is required to match the leverage - then you can open your position!&#x20;
+Once you open the FODL app, you will have the option to select a preset trading strategy or you can use your own strategy by selecting “New Position.” You will then select the assets you want to long and short, the principal investment amount, and your desired leverage. Now, you’re ready to open your position!
 
 #### How does FODL create leveraged positions out of collateral lending platforms?&#x20;
 
