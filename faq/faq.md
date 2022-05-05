@@ -31,7 +31,15 @@ Currently, you can purchase $FODL on various dexes including SushiSwap, 1inch, P
 
 #### **What is the tax wallet?**&#x20;
 
-The tax wallet is where the FODL platform collects the revenue from the various positions opened on the platform. The DAO can determine the distribution mechanism for the tax wallet (i.e., token buyback, etc.) back to $FODL token holders \[add link to the tax wallet?] What are the tokenomics of FODL? See here: https://fodl-1.gitbook.io/fodl-1/faq/tokenomics Has the platform been audited? Yes, the protocol has been audited by Quantstamp: https://certificate.quantstamp.com/full/fodl
+The tax wallet is where the FODL platform collects the revenue from the various positions opened on the platform. The DAO can determine the distribution mechanism for the tax wallet (i.e., token buyback, etc.) back to $FODL token holders&#x20;
+
+#### What are the tokenomics of FODL?&#x20;
+
+See here: https://fodl-1.gitbook.io/fodl-1/faq/tokenomics&#x20;
+
+#### Has the platform been audited?&#x20;
+
+Yes, the protocol has been audited by Quantstamp: https://certificate.quantstamp.com/full/fodl
 
 ### FODL Platform Usage (Trading & Yield Farming)
 
@@ -61,15 +69,11 @@ FODL has built bots to support stop loss or take profit. If market conditions re
 
 #### How do I open a long position?&#x20;
 
-Long positions can be defined as FODLs where the supplied asset is a non-stablecoin and the borrowed asset is a stablecoin. The positions are for users who are bullish on market conditions and seek to profit from price appreciation of assets against fiat stablecoins. You can also open a long position against a non-stablecoin, for example, long ETH (Supply) against BTC (Borrow).&#x20;
+By going long, a trader opens a position with the expectation that the underlying borrowed (short) asset will drop in value against the supplied (long) asset in the future. Read [here](../using-fodl/opening-a-long-position.md) to see how to open a long position.
 
 #### How do I open a short position?&#x20;
 
-Short positions can be defined as FODLs where the supplied asset is a stablecoin and the borrowed asset is a non-stablecoin. The positions are for users who are bearish on market conditions and seek to profit from price depreciation of assets against fiat stablecoins. Same with the long position, you can also short against a non-stablecoin, for example, Short ETH (Borrow) against BTC (Supply).&#x20;
-
-#### How do I open a correlated position?&#x20;
-
-Correlated positions can be defined as FODLs where the supply and borrow asset prices are generally correlated or exactly the same (i.e., stablecoins). Correlated positions are a strategy focused on maximizing governance token farming of COMP AAVE with reduced risk of liquidation due to underlying asset price movements. For example, if you supply and borrow stables with a supply APY of 2% and a borrow APY of 3%, the net APY is 1%. Over time, your borrow amount will increase by this net APY but at a very slow rate.&#x20;
+By going short, a trader opens a position with the expectation that the underlying borrowed (Short) asset will drop in value against the supplied (Long) asset in the future. Read [here](../using-fodl/opening-a-short-position.md) to see how to open a short position.
 
 #### What are the fees for using FODL?&#x20;
 
