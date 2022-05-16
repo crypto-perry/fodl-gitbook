@@ -45,7 +45,7 @@ Yes, the protocol has been audited by Quantstamp: https://certificate.quantstamp
 
 #### Where can I trade using FODL?&#x20;
 
-Go to [fodl.finance](https://fodl.finance) to use the platform. The protocol was first built on Ethereum and is now in beta version on BNB Smart Chain and Polygon. There are plans to also expand the platform to Avalanche, Arbitrum, and Fantom.&#x20;
+Go to [fodl.finance](https://fodl.finance/) to use the platform. The protocol was first built on Ethereum and is now in beta version on BNB Smart Chain and Polygon. There are plans to also expand the platform to Avalanche, Arbitrum, and Fantom.&#x20;
 
 #### Can I use FODL on mobile?&#x20;
 

@@ -1,7 +1,6 @@
 # Table of contents
 
-* [Mission](README.md)
-* [What is FODL?](<README (1).md>)
+* [What is FODL?](README.md)
 
 ## Understanding Fodl <a href="#getting-started" id="getting-started"></a>
 
