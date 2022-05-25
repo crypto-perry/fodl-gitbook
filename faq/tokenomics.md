@@ -18,6 +18,6 @@ The FODL token serves as both a governance token for the fully decentralized pro
 
 ### Vesting Periods
 
-* The initial LP and LP Staking rewards were locked for the 6 months in the LP after Project inception launch.
+* The initial LP and LP Staking rewards were locked for the 6 months in the LP after the initial launch of FODL.
 * Team Fund is vesting over 21 Months linearly with a 9 month cliff.&#x20;
 
