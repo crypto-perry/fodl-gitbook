@@ -8,6 +8,7 @@
 * [FODL Trade Lifecycle](getting-started/fodl-trade-lifecycle.md)
 * [Fees](getting-started/fees.md)
 * [Bots](getting-started/risk-management-bots.md)
+* [Allocations](getting-started/allocations.md)
 * [Staking & Position Rewards](getting-started/staking.md)
 * [DAO](getting-started/dao.md)
 
