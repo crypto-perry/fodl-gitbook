@@ -1,27 +1,32 @@
 # FODL Positions
 
-On FODL, each position (trade) opened is implemented as a smart contract owned by the user with the following high-level features:&#x20;
+On FODL, each position (trade) opened is implemented as a smart contract (smart wallet) owned by the user with the following high-level features:&#x20;
 
 * Supplying/borrowing assets with lending platforms (eg. Aave, Compound, etc.)&#x20;
-* Exchange of assets using the decentralized exchanges available on the chain (eg. Uniswap, Curve, Quickswap, etc.)&#x20;
-* Operation using flash loans (link to some resource about flash loans). Configuration of stop-loss / take-profit price thresholds.
+* Exchange of assets using the decentralized exchanges available on-chain (eg. Uniswap, Curve, Quickswap, etc.)&#x20;
+* Operation using flash loans (eg. DyDx, Aave, UniswapV3, etc.).
+* Configuration of stop-loss / take-profit price triggers to be executed by a decentralised network of bots.
 
 FODL uses these features as building blocks to construct financial instruments such as Long / Short positions: borrowing the Short asset, exchanging it for the Long asset, and supplying it together with some initial principal investment that acts as a margin.
 
-{% hint style="info" %}
-Note: Any trade is both a Long and a Short. For example, a Long ETH vs BTC trade is equivalent to a Short BTC vs ETH trade. However, when one of the assets is a stable coin, the common practice is to use the direction of the non-stable coin asset. For instance, a Short ETH vs. USDC trade (aka Long USDC vs ETH) is just called “Short ETH” as the Long (supply) asset is a stable coin.
-{% endhint %}
+> Note: Any trade is both a Long and a Short. For example, a Long ETH vs BTC trade is equivalent to a Short BTC vs ETH trade. However, when one of the assets is a stable coin, the common practice is to only refer to the trade as the direction of the non-stable coin asset. For instance, a Short ETH vs. USDC trade (aka Long USDC vs ETH) is just called “Short ETH” as the Long (supply) asset is a stable coin.
 
-To simplify the trade execution, FODL requires users to provide a principal investment, to be used as a margin, in the supply (Long) asset. A Long / Short position is represented on the underlying lending platform as follows:&#x20;
+To simplify the trade execution, FODL requires users to provide a principal investment in the supply (Long) asset. A Long / Short position is represented on the underlying lending platform as follows:&#x20;
 
-1. Supplied asset: Supply\_Amount = (Leverage + 1) \* Principal (This amount acts as collateral for the borrowed asset.)&#x20;
-2. Borrowed asset: Borrow\_Amount = Leverage \* Principal / Price\_Borrow\_to\_Supply (This amount is owed to the underlying lending platform and must be repaid from the collateral supplied.)
+1. Supplied asset: `Supply_Amount = (Leverage + 1) \* Principal`
+2. Borrowed asset: `Borrow_Amount = Leverage * Principal / Price_Borrow_to_Supply`
 
-When opening, increasing the value or the leverage of a position, the borrowed asset is exchanged into the supply asset. On the other hand, when closing, decreasing the value or leverage of a position, the supplied asset is exchanged into the borrowed asset.
+When opening / increasing the value or leverage of a position, some amount of the borrowed asset is exchanged into the supply asset. On the other hand, when closing / decreasing the value or leverage of a position, the supplied asset is exchanged into the borrowed asset. Therefore, if the borrowed asset depreciated between opening and closing a position, the price movement will be amplified with the leverage taken on entry.
 
-Notice the value and PnL of a position can be expressed mathematically: Position\_Value = Supply\_Amount - Borrow\_Amount \* Current\_Price\_Borrow\_to\_Supply PnL = Position\_Value - Principal = (Leverage + 1) \* Principal - (Borrow\_Amount \* Close\_Price\_Borrow\_to\_Supply) - Principal = Leverage \* Principal - Leverage \* Principal \* Close\_Price\_Borrow\_to\_Supply / Entry\_Price\_Borrow\_to\_Supply = Leverage \* Principal \* (1 - Close\_Price\_Borrow\_to\_Supply / Entry\_Price\_Borrow\_to\_Supply) = Leverage \* Principal \* Price\_Drop\_Borrow\_to\_Supply
+Notice the value and PnL of a position can be expressed mathematically: 
+```
+Position_Value = Supply_Amount - Borrow_Amount * Current_Price_Borrow_to_Supply
+PnL = Position_Value - Principal 
+PnL = Supply_Amount - Borrow_Amount * Current_Price_Borrow_to_Supply - Principal
+PnL = (Leverage + 1) * Principal - (Leverage * Principal / Entry_Price_Borrow_to_Supply) * Current_Price_Borrow_to_Supply - Principal = Leverage * Principal * (1 - Current_Price_Borrow_to_Supply / Entry_Price_Borrow_to_Supply) = Leverage * Principal * Price_Drop_Borrow_to_Supply
+```
 
-Notice how the profit is directly proportional (with a factor of Leverage) to the price drop of the borrowed (Short) asset. See detailed examples below!
+Notice how the profit is directly proportional (with a factor of `Leverage`) to the price drop of the borrowed (Short) asset. See detailed examples below!
 
 ### Long Position
 
