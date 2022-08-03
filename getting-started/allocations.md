@@ -20,4 +20,3 @@ A total of 1,000,000,000 FODL have been minted. The total supply will never chan
 ## Vesting Periods&#x20;
 
 * The initial LP and LP Staking rewards were locked for the 6 months in the LP after the initial launch of FODL.
-* Team Fund is vesting over 21 Months linearly with a 9 month cliff.&#x20;

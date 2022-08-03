@@ -38,3 +38,5 @@ By design, positions can be weighted differently for reward emissions. Rewards a
 
 * 20% are going to be correlated FODL Positions (USDC-USDC, USDC-DAI, ETH-ETH, etc.)&#x20;
 * 80% are going to other positions (ETH-BTC, ETH-USDC, etc.)
+
+> :exclamation:  Starting August 2022 Fodl position rewards were paused so the Fodl APR is 0. See DAO vote [here](https://snapshot.org/#/fodl-dao.eth/proposal/0x74c90282443385935c8527cfd47b65e93d0a7466b1913eec8abed6285717994e)!

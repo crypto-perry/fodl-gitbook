@@ -16,8 +16,9 @@ The FODL token serves as both a governance token for the fully decentralized pro
 | Decentralized development grants | \~125,000,000            |
 | Team                             | 100,000,000              |
 
+
+> :exclamation:  Starting August 2022 Fodl position rewards were paused so the APR is 0. See DAO vote [here](https://snapshot.org/#/fodl-dao.eth/proposal/0x74c90282443385935c8527cfd47b65e93d0a7466b1913eec8abed6285717994e)!
 ### Vesting Periods
 
 * The initial LP and LP Staking rewards were locked for the 6 months in the LP after Project inception launch.
-* Team Fund is vesting over 21 Months linearly with a 9 month cliff.&#x20;
 

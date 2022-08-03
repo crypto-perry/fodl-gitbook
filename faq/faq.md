@@ -77,21 +77,20 @@ By going short, a trader opens a position with the expectation that the underlyi
 
 #### What are the fees for using FODL?&#x20;
 
-There are a few fees that the platform charges:&#x20;
-
-* 0.1% from the principal when a user exits their position.&#x20;
-* 2.5% on profit margin (profit margin is: (revenue - cost) / revenue) taken when user exits position.&#x20;
-* 10% of platform rewards (COMP, AAVE) whenever a user claims rewards.
-
-FODL fees are generally lower than other forms and services of leverage, especially when including platform rewards.&#x20;
+Fodl only charges a 0.1% from the principal when a user exits their position.&#x20;
+FODL fees are generally lower than other forms and services of leverage.&#x20;
 
 #### Does FODL offer trading educational tools?&#x20;
 
 Yes! In our discord, there are active traders in the “Trading Pit” and “Charts” sections. Also, check out the “Trading Education” for resources to learn more about trading. FODL also provides a weekly market update where one of our traders offers his perspective on the current market movements.&#x20;
 
-#### Where can you see your staking rewards?&#x20;
+#### Where can you see your Fodl position rewards?&#x20;
 
-You can see them in the “rewards” tab on the FODL platform. When can you see how many rewards you get after opening a position? The rewards are computed every month and distributed on the 1st of each month. All positions are considered.&#x20;
+You can see them in the “Rewards” tab on the FODL platform. 
+
+#### When can you see how many rewards you get after opening a position? 
+
+The rewards are computed every month and distributed on the 1st of each month. All positions are considered.&#x20;
 
 #### Do you still get rewards if you close your position before 30 days?&#x20;
 
@@ -99,9 +98,13 @@ Yes. The rewards are computed based on how much and how long your position contr
 
 #### How is the FODL APR calculated?&#x20;
 
-The formula for calculating APR is: APR : (rewards per day + fees per day) \* days per year/total deposits.
+Fodl rewards are distributed using Merkle roots computed off-chain as the computation is made on the total value of a position which changes every block as prices of underlying assets change. The amount of fodl given each week for fodl rewards is determined by this formula: 
 
-Detailed explanation: The rewards are distributed using Merkle roots computed off-chain as the computation is made on the total value of a position which changes every block as prices of underlying assets change. The amount of fodl given each week for fodl rewards is determined by this formula: fodlPerWeek = 3319.23184624 \* (1200 - weekNumber) \* (weekNumber + 1)^(-e/10)) and is rounded down to an integer. This amount is then distributed 20% to stable/farming positions (same asset positions or stablecoins: USDC, USDT, DAI) and 80% to longs and shorts. Within each category, the fodl is distributed directly proportional to a user's contribution towards the TVL (sum of all supply + sum of all borrows).&#x20;
+`fodlPerWeek = 3319.23184624 \* (1200 - weekNumber) \* (weekNumber + 1)^(-e/10))`
+
+The result is rounded down to an integer. This amount is then distributed 20% to stable/farming positions (same asset positions or stablecoins: USDC, USDT, DAI) and 80% to longs and shorts. Within each category, the fodl is distributed directly proportional to a user's contribution towards the TVL (sum of all supply + sum of all borrows).&#x20;
+
+> :exclamation:  Starting August 2022 Fodl position rewards were paused so the APR is 0. See DAO vote [here](https://snapshot.org/#/fodl-dao.eth/proposal/0x74c90282443385935c8527cfd47b65e93d0a7466b1913eec8abed6285717994e)!
 
 #### Where can you see all the FODL Smart Contracts?&#x20;
 
@@ -141,20 +144,6 @@ So now you have 40 WETH supplied and 30 WETH worth of USDC borrowed without any 
 
 FODL is not available in the United States nor other prohibited jurisdictions. If you are a resident of, or incorporated or headquartered in, the United States of America or another prohibited jurisdiction, then you are not permitted to receive a distribution of, or transact in, FODL.
 
-### FODL Partnerships&#x20;
-
-#### What is Rari Capital and how is it related to FODL?&#x20;
-
-Rari Capital is a lending, borrowing, and yield farming protocol for DeFi. 0xb1 has a pool on the Rari platform called “0xb1’s Kitchen Sink” that allows you to utilize and leverage your FODL and xFODL tokens for liquidity in other tokens including stablecoins and other assets.&#x20;
-
-#### What is Drops Dao and how is it related to FODL?&#x20;
-
-Drops Dao is a protocol that provides loans for NFT and DeFi assets. Drops is launching its mainnet in the very near future (Q2 of 2022) which will allow you to supply your FODL opened position (which is an NFT) as collateral for borrowing money against it.&#x20;
-
-#### NFT artists&#x20;
-
-From time to time, FODL partners with various NFT creators to create collections specifically for FODL. These NFTs may serve as prizes for various trading competitions that FODL holds.
-
 ### Medium Article Tutorials&#x20;
 
 #### Connect Wallet to FODL&#x20;
@@ -183,7 +172,3 @@ From time to time, FODL partners with various NFT creators to create collections
 #### Boatlifter
 
 * [How to become a Boatlifter](https://medium.com/@Marmaladex/10-ways-to-become-a-fodl-boatlifter-c24b3416b040)&#x20;
-
-#### Rari&#x20;
-
-* [How to use Rari Capital’s Fuse Pool (0xb1’s Kitchen Sink)](https://medium.com/@nikkpirc/how-to-lend-or-borrow-xfodl-on-rari-capitals-fuse-pools-7eec7ed86833?source=user\_profile---------0-------------------------------)
