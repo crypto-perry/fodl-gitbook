@@ -5,7 +5,7 @@
 ## Understanding Fodl <a href="#getting-started" id="getting-started"></a>
 
 * [FODL Positions](getting-started/fodl-positions.md)
-* [FODL Trade Lifecycle](getting-started/fodl-trade-lifecycle.md)
+* [FODL User Journey](getting-started/fodl-trade-lifecycle.md)
 * [Fees](getting-started/fees.md)
 * [Bots](getting-started/risk-management-bots.md)
 * [Allocations](getting-started/allocations.md)

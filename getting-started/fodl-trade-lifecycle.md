@@ -1,15 +1,16 @@
-# FODL trade lifecycle
+# FODL User Journey
 
-The FODL platform combines several money "legos" of the DeFi ecosystem - flash loans and collateral lending platforms, combined with proprietary position protection bots and cross-asset price indexing - to build a fully decentralized margin trading platform.
+The FODL platform combines several money "legos" of the DeFi ecosystem such as flash loans, lending platforms and decentralised exchanges to build a fully decentralised margin trading platform.
 
-The following describes a typical FODL trade lifecycle:
+From the user's perspective, a typical FODL trade lifecycle would look like this:
 
-1. A user selects a supply asset and supply amount, a borrow asset and leverage.
-2. The FODL platform calculates how much of the borrow asset is required to match the leverage.
-3. When a user opens the position, FODL takes out a flash loan capable of opening the full leverage position in a single transaction.
-   * This effectively allows the user to leverage their principal beyond the limits of the underlying platform
-4. A user configures a stop loss bot or take profit bot.
+1. The user selects a **Long** (supply) asset and a **Short** (borrow) asset.&#x20;
+2. The user inputs an amount of Long asset to be used as **principal** investment.
+3. The user chooses a **leverage** factor.
+4. The FODL platform calculates how much of the Short asset needs to be borrowed to obtain the desired leverage. Furthermore, FODL displays the **Execution Price** at which the trade would actually happen on the exchange and the **Liquidation Price** at which the underlying lending platform would liquidate this position.
+5. Once the user chooses a leverage factor that produces an acceptable trade-off between the potential gains and the losses that would be realised at the liquidation price, the position can be opened by clicking the **Open Position** button.
+6. A Metamask popup will show up asking to **approve** the principal amount to be taken from the user and once the transaction is mined, a second popup will appear asking to **execute** the actual transaction that opens the position. For details of what the transaction does, refer to the trade flow described in[fodl-positions.md](fodl-positions.md "mention"). Once this transaction is mined as well, the page should refresh and the user can see his opened position.
+7. The user can further configure a stop loss bot or take profit bot.
    * This action sends configuration data around cross-asset price action to FODL’s bot system.
-5. If market conditions reach the user’s configured price, FODL  bots will unwrap a portion or entirety of the user’s position per configuration.&#x20;
-   * Prices are determined by price oracles of the underlying platform (ie. Compound price oracles or Aave price oracles respectively for positions on each platform)&#x20;
-
+8. If market conditions reach the user’s configured price, FODL bots will unwrap a portion or entirety of the user’s position per configuration.
+   * Prices are determined by price oracles of the underlying platform (ie. Compound price oracles or Aave price oracles respectively for positions on each platform)
